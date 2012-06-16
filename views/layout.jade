@@ -1,5 +1,14 @@
 doctype 5
 html
   head
+    title Bible Community Church
+    != css('bootstrap.min')
+    != css('bcc')
+    // != js('bootstrap.min')
   body
-    block content
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          h3 Bible Community Church
+    .container
+      block content
