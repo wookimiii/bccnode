@@ -1,0 +1,17 @@
+#background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#content{
+  color: #DDD;
+  background: #333;
+  margin-top: 90px;
+  padding: 10px;
+  z-index: 99;
+  height: 600px;
+}
