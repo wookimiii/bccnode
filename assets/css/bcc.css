@@ -2,16 +2,45 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
   z-index: -1;
+  opacity: 0.95;
+}
+
+#nav h3{
+  margin-top: 8px;
+  color: white;
 }
 
 #content{
   color: #DDD;
-  background: #333;
-  margin-top: 90px;
   padding: 10px;
   z-index: 99;
   height: 600px;
+  margin-top: 50px;
 }
+
+@media (max-width: 480px){
+  body{
+    padding: 0;
+  }
+  #nav{margin:0}
+  #content{
+    margin: 0;
+  }
+  
+}
+
+
+@media (max-width: 767px){
+  #content{
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+  #content{
+    margin-top: 0;
+  }
+
+}
+
