@@ -22,4 +22,15 @@ body{
   position: relative;
   top: -3px;
 }
+.navbar{
+  color: #f5f5f5;
+}
 
+.navbar .brand{
+  padding: 0;
+  font-family: 'lobster', cursive;
+ }
+
+.navbar .nav > li > a{
+  padding: 10px 10px;
+}
