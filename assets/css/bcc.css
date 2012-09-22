@@ -1,46 +1,25 @@
-#background{
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  opacity: 0.95;
+body{
+  margin-top: 40px;
+  margin-bottom: 300px;
+  font-size: 1.05em
 }
 
 #nav h3{
-  margin-top: 8px;
-  color: white;
+  line-height: 21px;
+  float: left;
+  padding-right: 30px;
 }
 
-#content{
-  color: #DDD;
-  padding: 10px;
-  z-index: 99;
-  height: 600px;
-  margin-top: 50px;
+.section h3{
+  color: #999;
 }
 
-@media (max-width: 480px){
-  body{
-    padding: 0;
-  }
-  #nav{margin:0}
-  #content{
-    margin: 0;
-  }
-  
+.schedule h4{
+  color: #004399;
 }
-
-
-@media (max-width: 767px){
-  #content{
-    margin: 0;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 979px){
-  #content{
-    margin-top: 0;
-  }
-
+.schedule .label{
+  margin-left: 10px;
+  position: relative;
+  top: -3px;
 }
 
