@@ -1,7 +1,12 @@
 body{
   margin-top: 40px;
-  margin-bottom: 300px;
+  margin-bottom: 10px;
   font-size: 1.05em
+
+}
+
+#content{
+  margin-bottom: 300px;
 }
 
 #nav h3{
@@ -33,4 +38,7 @@ body{
 
 .navbar .nav > li > a{
   padding: 10px 10px;
+}
+.footer{
+  text-align: center;
 }
