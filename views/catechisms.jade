@@ -6,7 +6,7 @@ html
     != css('bootstrap-responsive.min')
     != css('bcc')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js')
-    != js('lib/bootstrap')
+    != js('bootstrap')
     script(type="text/javascript")
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-26995728-1']);
@@ -20,24 +20,5 @@ html
 
 
     
-  body(data-spy="scroll", data-target=".navbar")
-    #nav.navbar.navbar-fixed-top
-      .navbar-inner
-        .container
-          h3.brand Bible Community Church
-          ul.nav
-            li
-              a(href="#welcome") Welcome
-            li
-              a(href="#location") Location
-            li
-              a(href="#schedule") Schedule
-            li
-              a(href="#doctrine") Doctrine
-    #content.container.container-fluid
-      block content
-    .footer
-      .container
-        a(href="/") Bible Community Church 
-        | | No Rights Reserved. All we claim is Christ. | 
-        a(href="https://github.com/wookimiii/bccnode", target="_blank") Github
+  body(ng-app="app")
+    header Catechisms
