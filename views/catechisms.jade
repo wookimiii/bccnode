@@ -1,12 +1,17 @@
 doctype 5
-html
+html(ng-app='app')
   head
     title Bible Community Church
     != css('bootstrap.min')
     != css('bootstrap-responsive.min')
-    != css('bcc')
+    != css('catechisms')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js')
-    != js('bootstrap')
+    != js('lib/bootstrap')
+    != js('lib/angular.min')
+    != js('lib/angular-resource')
+    != js('models/catechisms')
+    != js('app')
+
     script(type="text/javascript")
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-26995728-1']);
@@ -20,5 +25,14 @@ html
 
 
     
-  body(ng-app="app")
+  body
     header Catechisms
+
+    #list(ng-controller='ListCtrl')
+      #debug
+        {{catechisms}}
+      button(ng-click='debug()') help
+      ul
+        li(ng-repeat='cat in catechisms')
+          {{cat.question}}
+
