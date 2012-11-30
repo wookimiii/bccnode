@@ -1,0 +1,26 @@
+header{
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.number{
+  float: left;
+  color: #999;
+  width: 20px;
+}
+.catechism label{
+  width: 70px;
+  float: left;
+}
+.question, .answer{
+  float: left;
+}
+.answer, .verses{
+  margin-left: 20px;
+}
+

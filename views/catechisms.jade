@@ -25,14 +25,25 @@ html(ng-app='app')
 
 
     
-  body
+  body.container
     header Catechisms
 
     #list(ng-controller='ListCtrl')
-      #debug
-        {{catechisms}}
-      button(ng-click='debug()') help
       ul
-        li(ng-repeat='cat in catechisms')
-          {{cat.question}}
+        li.catechism(ng-repeat='cat in catechisms')
+          .number {{cat.number}}
+          .question
+            label Question: 
+            {{cat.question}}
+          .clearfix
+          .answer 
+            label Answer: 
+            {{cat.answer}}
+          .clearfix
+          .verses
+            .verse(ng-repeat='verse in cat.verses')
+              a(href="http://www.biblegateway.com/passage/?search={{verse}}&version=NASB") {{verse}}
+
+
+
 
