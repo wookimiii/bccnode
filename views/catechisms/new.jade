@@ -1,0 +1,18 @@
+#new.hidden(ng-controller='NewCtrl')
+  h1 New Catechism
+  label Number:
+  input(ng-model='new.number', type='number')
+  label Question:
+  input(ng-model='new.question')
+  label Answer:
+  input(ng-model='new.answer')
+  label Verses:
+  input(ng-model='verses')
+  br
+  input(type='submit', ng-click='save()')
+
+  #new-debug
+    {{new}}
+    br
+    | Verses: {{verses}}g
+  a(href="#") Home

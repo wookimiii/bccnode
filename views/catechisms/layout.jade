@@ -5,13 +5,15 @@ html(ng-app='app')
     != css('bootstrap.min')
     != css('bootstrap-responsive.min')
     != css('catechisms')
-    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js')
+    != js('lib/jquery-1.8.3.min')
     != js('lib/bootstrap')
     != js('lib/angular.min')
     != js('lib/angular-resource')
     != js('models/catechisms')
     != js('app')
+    meta(name="viewport", content="width=device-width, maximum-scale=1")
 
+  //
     script(type="text/javascript")
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-26995728-1']);
@@ -23,27 +25,5 @@ html(ng-app='app')
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
-
-    
-  body.container
-    header Catechisms
-
-    #list(ng-controller='ListCtrl')
-      ul
-        li.catechism(ng-repeat='cat in catechisms')
-          .number {{cat.number}}
-          .question
-            label Question: 
-            {{cat.question}}
-          .clearfix
-          .answer 
-            label Answer: 
-            {{cat.answer}}
-          .clearfix
-          .verses
-            .verse(ng-repeat='verse in cat.verses')
-              a(href="http://www.biblegateway.com/passage/?search={{verse}}&version=NASB") {{verse}}
-
-
-
-
+  body(ng-controller='MainCtrl')
+    block content
