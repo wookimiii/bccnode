@@ -10,8 +10,8 @@ block content
     ul
       li.catechism(ng-repeat='cat in catechisms | filter:search',
         ng-class-even='"even"')
-        .number {{cat.number}}
         .question
+          .number {{cat.number}}
           label Question: 
           {{cat.question}}
         .clearfix
