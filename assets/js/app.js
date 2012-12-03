@@ -1,4 +1,4 @@
-var app = angular.module('app', ['catechisms']);
+var app = angular.module('app', ['catechisms', 'ngSanitize']);
 app.config(function($routeProvider, $locationProvider) {
   // $locationProvider.html5Mode(true);
   $routeProvider.
@@ -18,9 +18,17 @@ function MainCtrl($scope, Catechism, $location){
 }
 
 function ListCtrl($scope, Catechism){
-  
+  $scope.toggles = {}
   $scope.debug = function(){
     console.log($scope.catechisms);
+  }
+
+  $scope.toggle = function(num, ref){
+    $scope.toggles[num+ref] = !$scope.toggles[num+ref];
+  }
+
+  $scope.isVisible = function(num, ref){
+    return $scope.toggles[num+ref];
   }
 
 }

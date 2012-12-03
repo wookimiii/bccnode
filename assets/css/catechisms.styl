@@ -28,19 +28,30 @@ li
 .catechism.even
   background: rgba(0,0,0, 0.03)
   padding: 5px
-.number{
-  float: left;
-  color: #999;
-  width: 20px;
-}
-.catechism label{
-  width: 70px;
-  float: left;
-}
+
+$number-width = 40px
+.number
+  font-size: 2em;
+  float: left
+  color: #999
+  width: $number-width
+  position:relative
+  top: 4px
+  
+    
+.catechism label
+  width: 20px
+  float: left
+  margin: 0
+
+.question
+  font-weight: bold
 .question, .answer{
   float: left;
 }
 .answer, .verses{
-  margin-left: 20px;
+  margin-left: $number-width
 }
+.ref
+  color: #0088cc;
 

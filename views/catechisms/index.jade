@@ -12,16 +12,18 @@ block content
         ng-class-even='"even"')
         .question
           .number {{cat.number}}
-          label Question: 
           {{cat.question}}
         .clearfix
         .answer 
-          label Answer: 
+          label A: 
           {{cat.answer}}
         .clearfix
         .verses
-          .verse(ng-repeat='verse in cat.verses')
-            a(href="http://www.biblegateway.com/passage/?search={{verse}}&version=NASB") {{verse}}
+          .verse(ng-repeat='v in cat.verses')
+            
+            .ref(ng-click='toggle(cat.number, v.reference)')
+              {{v.reference}}
+            <span ng-show='isVisible(cat.number, v.reference)', ng-bind-html="v.text"></span>
 
     a(href="#new") New
 
