@@ -2,8 +2,8 @@ var app = angular.module('app', ['catechisms', 'ngSanitize']);
 app.config(function($routeProvider, $locationProvider) {
   // $locationProvider.html5Mode(true);
   $routeProvider.
-    when('/new', {controller:NewCtrl, template:$('#new').html()}).
-    otherwise({controller:ListCtrl, template:$('#list').html()});
+    when('/new', {controller:NewCtrl, template:$('#new-template').html()}).
+    otherwise({controller:ListCtrl, template:$('#list-template').html()});
   });
 
 function MainCtrl($scope, Catechism, $location){
