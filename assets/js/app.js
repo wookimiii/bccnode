@@ -18,7 +18,7 @@ function MainCtrl($scope, Catechism, $location){
   }
 
   $scope.filterNum = function(catechism){
-    if(_.isEmpty($scope.search))
+    if(!$scope.search.number)
       return true;
     return catechism.number == $scope.search.number;
   }
@@ -28,13 +28,10 @@ function MainCtrl($scope, Catechism, $location){
 function SelectCtrl($scope, Catechism, $location){
   $scope.preview = null;
   $scope.select = function(num){
-    if(_.isNull(num)){
-      $scope.search = {};
-    }else{
-      $scope.search.number = num;
-    }
+    $scope.search.number = num;
     $scope.goHome();
   }
+  
   $scope.setPreview = function(catechism){
     $scope.preview = catechism;
   }
