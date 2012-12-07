@@ -1,0 +1,461 @@
+[
+  {
+    "_id": "50bd1eba3905810200000001",
+    "answer": "Man’s chief end is to glorify God, and to enjoy him forever.",
+    "number": 1,
+    "question": "What is the chief end of man?",
+    "verses": [
+      null,
+      {
+        "id": "ESV:Rom.11",
+        "url": "ESV/Rom/11/36",
+        "reference": "Romans 11:36",
+        "text": "<span class=\"para\"><span class=\"v45_11_36\"> <sup class=\"v45_11_36\">36</sup> For from him and through him and to him are all things. To him be glory forever. Amen.</span></span> ",
+        "textstart": "ESV:Rom.11.36",
+        "textend": "ESV:Rom.11.36",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:1Cor.6",
+        "url": "ESV/1Cor/6/20",
+        "reference": "1 Corinthians 6:20",
+        "text": "<span class=\"para\"><span class=\"v46_6_20\">\n\t\t\t\t\t <sup class=\"v46_6_20\">20</sup> for you were bought with a price. So glorify God in your body.</span></span> ",
+        "textstart": "ESV:1Cor.6.20",
+        "textend": "ESV:1Cor.6.20",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Isa.60",
+        "url": "ESV/Isa/60/21",
+        "reference": "Isaiah 60:21",
+        "text": "<span class=\"para\"><span class=\"v23_60_21\">\n                <span class=\"level1\">\n                <sup class=\"v23_60_21\">21</sup> Your people shall all be righteous;</span>\n                <span class=\"level2\">\n               they shall possess the land forever,</span>\n                <span class=\"level1\">\n               the branch of my planting, the work of my hands,</span>\n                <span class=\"level2\">that I might be glorified.\n               </span>\n               </span></span> ",
+        "textstart": "ESV:Isa.60.21",
+        "textend": "ESV:Isa.60.21",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Ps.86",
+        "url": "ESV/Ps/86",
+        "reference": "Psalms 86:1-17",
+        "text": "<span class=\"para\"><span class=\"v19_86_1\">\n                <span class=\"level1\">\n                <sup class=\"v19_86_1\">1</sup> Incline your ear, O Lord, and answer me,</span>\n                <span class=\"level2\">for I am poor and needy.</span>\n               </span></span> <span class=\"para\"><span class=\"v19_86_2\">\n                <span class=\"level1\"> <sup class=\"v19_86_2\">2</sup> Preserve my life, for I am godly;</span>\n                <span class=\"level2\">save your servant, who trusts in you—you are my God.</span>\n               </span></span> <span class=\"para\"><span class=\"v19_86_3\">\n                <span class=\"level1\">\n                <sup class=\"v19_86_3\">3</sup> Be gracious to me, O Lord,</span>\n                <span class=\"level2\">for to you do I cry all the day.</span>\n               </span></span> ",
+        "textstart": "ESV:Ps.86.1",
+        "textend": "ESV:Ps.86.3",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Rev.4",
+        "url": "ESV/Rev/4/11",
+        "reference": "Revelation 4:11",
+        "text": "<span class=\"para\"><span class=\"v66_4_11\">\n                <span class=\"level1\">\n               \n                <sup class=\"v66_4_11\">11</sup> \"Worthy are you, our Lord and God,</span>\n                <span class=\"level2\">to receive glory and honor and power,</span>\n                <span class=\"level1\">for you created all things,</span>\n                <span class=\"level2\">and by your will they existed and were created.\"\n               </span>\n               \n               \n               </span></span> ",
+        "textstart": "ESV:Rev.4.11",
+        "textend": "ESV:Rev.4.11",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Isa.12",
+        "url": "ESV/Isa/12/2",
+        "reference": "Isaiah 12:2",
+        "text": "<span class=\"para\"><span class=\"v23_12_2\">\n                <span class=\"level1\">\n                <sup class=\"v23_12_2\">2</sup> \"Behold, God is my salvation;</span>\n                <span class=\"level2\">I will trust, and will not be afraid;</span>\n                <span class=\"level1\">for the Lord God is my strength and my song,</span>\n                <span class=\"level2\">and he has become my salvation.\"\n               </span>\n               \n               \n               </span></span> ",
+        "textstart": "ESV:Isa.12.2",
+        "textend": "ESV:Isa.12.2",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Ps.16",
+        "url": "ESV/Ps/16/5-11",
+        "reference": "Psalms 16:5-11",
+        "text": "<span class=\"para\"><span class=\"v19_16_5\">\n                <span class=\"level1\"> <sup class=\"v19_16_5\">5</sup> The Lord is my chosen portion and my cup;</span>\n                <span class=\"level2\">you hold my lot.</span>\n               </span></span> <span class=\"para\"><span class=\"v19_16_6\">\n                <span class=\"level1\">\n                <sup class=\"v19_16_6\">6</sup> The lines have fallen for me in pleasant places;</span>\n                <span class=\"level2\">indeed, I have a beautiful inheritance.</span>\n               \n               \n               \n               \n               </span></span> <span class=\"para\"><span class=\"v19_16_7\">\n                <span class=\"level1\"> <sup class=\"v19_16_7\">7</sup> I bless the Lord who gives me counsel;</span>\n                <span class=\"level2\">in the night also my heart instructs me.\n               </span>\n               </span></span> ",
+        "textstart": "ESV:Ps.16.5",
+        "textend": "ESV:Ps.16.7",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Ps.144",
+        "url": "ESV/Ps/144/15",
+        "reference": "Psalms 144:15",
+        "text": "<span class=\"para\"><span class=\"v19_144_15\">\n                <span class=\"level1\">\n                <sup class=\"v19_144_15\">15</sup> Blessed are the people to whom such blessings fall!</span>\n                <span class=\"level2\">\n               Blessed are the people whose God is the Lord!</span>\n               \n               \n               \n               \n               \n               \n               \n               \n               \n               \n               \n               \n               \n               \n               \n               \n               \n               </span></span> ",
+        "textstart": "ESV:Ps.144.15",
+        "textend": "ESV:Ps.144.15",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Luke.2",
+        "url": "ESV/Luke/2/10",
+        "reference": "Luke 2:10",
+        "text": "<span class=\"para\"><span class=\"v42_2_10\"> <sup class=\"v42_2_10\">10</sup> And the angel said to them, \"Fear not, for behold, I bring you good news of great joy that will be for all the people.</span></span> ",
+        "textstart": "ESV:Luke.2.10",
+        "textend": "ESV:Luke.2.10",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Phil.4",
+        "url": "ESV/Phil/4/4",
+        "reference": "Philippians 4:4",
+        "text": "<span class=\"para\"><span class=\"v50_4_4\">\n                <sup class=\"v50_4_4\">4</sup> Rejoice in the Lord always; again I will say, Rejoice.</span></span> ",
+        "textstart": "ESV:Phil.4.4",
+        "textend": "ESV:Phil.4.4",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      },
+      {
+        "id": "ESV:Rev.21",
+        "url": "ESV/Rev/21/3-4",
+        "reference": "Revelation 21:3-4",
+        "text": "<span class=\"para\"><span class=\"v66_21_3\"> <sup class=\"v66_21_3\">3</sup> And I heard a loud voice from the throne saying, \"Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God.\n               </span></span> <span class=\"para\"><span class=\"v66_21_4\">\n                <sup class=\"v66_21_4\">4</sup> He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.\"\n               </span></span> ",
+        "textstart": "ESV:Rev.21.3",
+        "textend": "ESV:Rev.21.4",
+        "version": "ESV",
+        "display_abbreviation": "ESV"
+      }
+    ]
+  },
+  {
+    "_id": "50bef8c4086e8a0200000001",
+    "answer": "The Word of God, which is contained in the Scriptures of the Old and New Testaments, is the only rule to direct us how we may glorify and enjoy him.",
+    "number": 2,
+    "question": "What rule hath God given to direct us how we may glorify and enjoy him?",
+    "verses": [
+      {
+        "text": "<sup>27</sup>Then beginning with Moses and all the prophets, he interpreted to them the things written about himself in all the scriptures.<hr/><sup>44</sup>Then he said to them, “These are my words that I spoke to you while I was still with you, that everything written about me in the law of Moses and the prophets and the psalms must be fulfilled.”",
+        "reference": "Luke 24:27,44"
+      },
+      {
+        "text": "<sup>37</sup>If anyone considers himself a prophet or spiritual person, he should acknowledge that what I write to you is the Lord’s command.",
+        "reference": "1 Corinthians 14:37"
+      },
+      {
+        "text": "<sup>13</sup>And we speak about these things, not with words taught us by human wisdom, but with those taught by the Spirit, explaining spiritual things to spiritual people.",
+        "reference": "1 Corinthians 2:13"
+      },
+      {
+        "text": "<sup>24</sup>That is why a man leaves his father and mother and unites with his wife, and they become a new family.",
+        "reference": "Genesis 2:24"
+      },
+      {
+        "text": "<sup>4</sup>He answered, “Have you not read that from the beginning the Creator made them male and female</b>,<sup>5</sup>and said, ‘For this reason a man will leave his father and mother and will be united with his wife, and the two will become one flesh</b>’?",
+        "reference": "Matthew 19:4-5"
+      },
+      {
+        "text": "<sup>20</sup>Above all, you do well if you recognize this: No prophecy of scripture ever comes about by the prophet’s own imagination,<sup>21</sup>for no prophecy was ever borne of human impulse; rather, men carried along by the Holy Spirit spoke from God.<hr/>",
+        "reference": "2 Peter 1:20-21"
+      },
+      {
+        "text": "<sup>2</sup>Do not add a thing to what I command you nor subtract from it, so that you may keep the commandments of the Lord your God that I am delivering to you.",
+        "reference": "Deuteronomy 4:2"
+      },
+      {
+        "text": "<sup>20</sup>Then you must recall the Lord’s instructions and the prophetic testimony of what would happen. Certainly they say such things because their minds are spiritually darkened.",
+        "reference": "Isaiah 8:20"
+      },
+      {
+        "text": "<sup>7</sup>The law of the Lord is perfect<hr/> <p class=\"poetry\">and preserves one’s life.</p> <p class=\"poetry\">The rules set down by the Lord are reliable</p> <p class=\"poetry\">and impart wisdom to the inexperienced.</p><sup>8</sup>The Lord’s precepts are fair<hr/> <p class=\"poetry\">and make one joyful.</p> <p class=\"poetry\">The Lord’s commands are pure</p> <p class=\"poetry\">and give insight for life.</p><sup>9</sup>The commands to fear the Lord are right<hr/> <p class=\"poetry\">and endure forever.</p> <p class=\"poetry\">The judgments given by the Lord are trustworthy</p> <p class=\"poetry\">and absolutely just.</p><sup>10</sup>They are of greater value than gold,<hr/> <p class=\"poetry\">than even a great amount of pure gold;</p> <p class=\"poetry\">they bring greater delight than honey,</p> <p class=\"poetry\">than even the sweetest honey from a honeycomb.</p><sup>11</sup>Yes, your servant finds moral guidance there;<hr/> <p class=\"poetry\">those who obey them receive a rich reward.</p>",
+        "reference": "Psalms 19:7-11"
+      },
+      {
+        "text": "<sup>2</sup>I want you to recall both the predictions foretold by the holy prophets and the commandment of the Lord and Savior through your apostles.<sup>15</sup>And regard the patience of our Lord as salvation, just as also our dear brother Paul wrote to you, according to the wisdom given to him,<sup>16</sup>speaking of these things in all his letters. Some things in these letters are hard to understand, things the ignorant and unstable twist to their own destruction, as they also do to the rest of the scriptures.",
+        "reference": "2 Peter 3:2, 15-16"
+      },
+      {
+        "text": "<sup>11</sup>I have told you these things so that my joy may be in you, and your joy may be complete.",
+        "reference": "John 15:11"
+      },
+      {
+        "text": "<sup>11</sup>These Jews were more open-minded than those in Thessalonica, for they eagerly received the message, examining the scriptures carefully every day to see if these things were so.",
+        "reference": "Acts 17:11"
+      },
+      {
+        "text": "<sup>15</sup>and how from infancy you have known the holy writings, which are able to give you wisdom for salvation through faith in Christ Jesus.<sup>16</sup>Every scripture is inspired by God and useful for teaching, for reproof, for correction, and for training in righteousness,<sup>17</sup>that the person dedicated to God may be capable and equipped for every good work.<hr/>",
+        "reference": "2 Timothy 3:15-17"
+      },
+      {
+        "text": "<sup>4</sup>Thus we are writing these things so that our joy may be complete.<hr/>",
+        "reference": "1 John 1:4"
+      }
+    ]
+  },
+  {
+    "_id": "50bef9da086e8a0200000002",
+    "answer": "The Scriptures principally teach, what man is to believe concerning God, and what duty God requires of man.",
+    "number": 3,
+    "question": "What do the Scriptures principally teach?",
+    "verses": [
+      {
+        "text": "<sup>39</sup>You study the scriptures thoroughly because you think in them you possess eternal life, and it is these same scriptures that testify about me,",
+        "reference": "John 5:39"
+      },
+      {
+        "text": "<sup>17</sup>Consequently faith comes from what is heard, and what is heard comes through the preached word of Christ.<hr/>",
+        "reference": "Romans 10:17"
+      },
+      {
+        "text": "<sup>1</sup>In the beginning God created the heavens and the earth.<hr/>",
+        "reference": "Genesis 1:1"
+      },
+      {
+        "text": "<sup>12</sup>Now, Israel, what does the Lord your God require of you except to revere him, to obey all his commandments, to love him, to serve him with all your mind and being,<sup>13</sup>and to keep the Lord’s commandments and statutes that I am giving you today for your own good?",
+        "reference": "Deuteronomy 10:12-13"
+      },
+      {
+        "text": "<sup>8</sup>This law scroll must not leave your lips! You must memorize it day and night so you can carefully obey all that is written in it. Then you will prosper and be successful.",
+        "reference": "Joshua 1:8"
+      },
+      {
+        "text": "<sup>105</sup>&#1504; (Nun)<hr/> <p class=\"poetry\">Your word is a lamp to walk by,</p> <p class=\"poetry\">and a light to illumine my path.</p>",
+        "reference": "Psalms 119:105"
+      },
+      {
+        "text": "<sup>8</sup>He has told you, O man, what is good,<hr/> <p class=\"poetry\">and what the Lord really wants from you:</p> <p class=\"poetry\">He wants you to promote justice, to be faithful,</p> <p class=\"poetry\">and to live obediently before your God.</p>",
+        "reference": "Micah 6:8"
+      },
+      {
+        "text": "<sup>16</sup>Every scripture is inspired by God and useful for teaching, for reproof, for correction, and for training in righteousness,<sup>17</sup>that the person dedicated to God may be capable and equipped for every good work.<hr/>",
+        "reference": "2 Timothy 3:16-17"
+      },
+      {
+        "text": "<sup>31</sup>But these are recorded so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.<hr/>",
+        "reference": "John 20:31"
+      }
+    ]
+  },
+  {
+    "_id": "50befbcc086e8a0200000003",
+    "answer": "God is a spirit, infinite, eternal, and unchangeable, in his being, wisdom, power, holiness, justice, goodness and truth.",
+    "number": 4,
+    "question": "What is God?",
+    "verses": [
+      {
+        "text": "<sup>29</sup>So since we are God’s offspring, we should not think the deity is like gold or silver or stone, an image made by human skill and imagination.",
+        "reference": "Acts 17:29"
+      },
+      {
+        "text": "<sup>15</sup>Be very careful, then, because you saw no form at the time the Lord spoke to you at Horeb from the middle of the fire.<sup>16</sup>I say this so you will not corrupt yourselves by making an image in the form of any kind of figure. This includes the likeness of a human male or female,<sup>17</sup>any kind of land animal, any bird that flies in the sky,<sup>18</sup>anything that crawls on the ground, or any fish in the deep waters of the earth.<sup>19</sup>When you look up to the sky and see the sun, moon, and stars &#8211; the whole heavenly creation &#8211; you must not be seduced to worship and serve them, for the Lord your God has assigned them to all the people of the world.",
+        "reference": "Deuteronomy 4:15-19"
+      },
+      {
+        "text": "<sup>39</sup>Look at my hands and my feet; it’s me! Touch me and see; a ghost does not have flesh and bones like you see I have.”",
+        "reference": "Luke 24:39"
+      },
+      {
+        "text": "<sup>18</sup>No one has ever seen God. The only one, himself God, who is in closest fellowship with the Father, has made God known.<hr/>",
+        "reference": "John 1:18"
+      },
+      {
+        "text": "<sup>24</sup>God is spirit, and the people who worship him must worship in spirit and truth.”",
+        "reference": "John 4:24"
+      },
+      {
+        "text": "<sup>27</sup>“God does not really live on the earth! Look, if the sky and the highest heaven cannot contain you, how much less this temple I have built!",
+        "reference": "1 Kings 8:27"
+      },
+      {
+        "text": "<sup>7</sup>Where can I go to escape your spirit?<hr/> <p class=\"poetry\">Where can I flee to escape your presence?</p><sup>8</sup>If I were to ascend to heaven, you would be there.<hr/> <p class=\"poetry\">If I were to sprawl out in Sheol, there you would be.</p><sup>9</sup>If I were to fly away on the wings of the dawn,<hr/> <p class=\"poetry\">and settle down on the other side of the sea,</p><sup>10</sup>even there your hand would guide me,<hr/> <p class=\"poetry\">your right hand would grab hold of me.</p>",
+        "reference": "Psalms 139:7-10"
+      },
+      {
+        "text": "<sup>3</sup>The Lord is great and certainly worthy of praise!<hr/> <p class=\"poetry\">No one can fathom his greatness!</p>",
+        "reference": "Psalms 145:3"
+      },
+      {
+        "text": "<sup>5</sup>Our Lord is great and has awesome power;<hr/> <p class=\"poetry\">there is no limit to his wisdom.</p>",
+        "reference": "Psalms 147:5"
+      },
+      {
+        "text": "<sup>24</sup>“Do you really think anyone can hide himself<hr/> <p class=\"poetry\">where I cannot see him?” the Lord asks.</p> <p class=\"poetry\">“Do you not know that I am everywhere?”</p> <p class=\"poetry\">the Lord asks.</p>",
+        "reference": "Jeremiah 23:24"
+      },
+      {
+        "text": "<sup>33</sup>Oh, the depth of the riches and wisdom and knowledge of God! How unsearchable are his judgments and how fathomless his ways!<hr/><sup>34</sup><b>For who has known the mind of the Lord</b>,<hr/> <p class=\"otpoetry\"><b>or who has been his counselor?</b></p><sup>35</sup><b>Or who has first given to God</b>,<hr/> <p class=\"otpoetry\"><b>that God</b> <b>needs to repay him?</b></p><sup>36</sup>For from him and through him and to him are all things. To him be glory forever! Amen.<hr/>",
+        "reference": "Romans 11:33-36"
+      },
+      {
+        "text": "<sup>2</sup>Even before the mountains came into existence,<hr/> <p class=\"poetry\">or you brought the world into being,</p> <p class=\"poetry\">you were the eternal God.</p>",
+        "reference": "Psalms 90:2"
+      },
+      {
+        "text": "<sup>27</sup>The everlasting God is a refuge,<hr/> <p class=\"poetry\">and underneath you are his eternal arms;</p> <p class=\"poetry\">he has driven out enemies before you,</p> <p class=\"poetry\">and has said, “Destroy!”</p>",
+        "reference": "Deuteronomy 33:27"
+      },
+      {
+        "text": "<sup>12</sup>But you, O Lord, rule forever,<hr/> <p class=\"poetry\">and your reputation endures.</p>",
+        "reference": "Psalms 102:12"
+      },
+      {
+        "text": "<sup>24</sup>I say, “O my God, please do not take me away in the middle of my life!<hr/> <p class=\"poetry\">You endure through all generations.</p><sup>25</sup>In earlier times you established the earth;<hr/> <p class=\"poetry\">the skies are your handiwork.</p><sup>26</sup>They will perish,<hr/> <p class=\"poetry\">but you will endure.</p> <p class=\"poetry\">They will wear out like a garment;</p> <p class=\"poetry\">like clothes you will remove them and they will disappear.</p><sup>27</sup>But you remain;<hr/> <p class=\"poetry\">your years do not come to an end.</p>",
+        "reference": "Psalms 102:24-27"
+      },
+      {
+        "text": "<sup>4</sup>From John, to the seven churches that are in the province of Asia: Grace and peace to you from “he who is,” and who was, and who is still to come, and from the seven spirits who are before his throne,",
+        "reference": "Revelation 1:4"
+      },
+      {
+        "text": "<sup>8</sup>“I am the Alpha and the Omega,” says the Lord God &#8211; the one who is, and who was, and who is still to come &#8211; the All-Powerful!<hr/>",
+        "reference": "Revelation 1:8"
+      },
+      {
+        "text": "<sup>11</sup>The Lord’s decisions stand forever;<hr/> <p class=\"poetry\">his plans abide throughout the ages.</p>",
+        "reference": "Psalms 33:11"
+      },
+      {
+        "text": "<sup>6</sup>“Since, I, the Lord, do not go back on my promises, you, sons of Jacob, have not perished.",
+        "reference": "Malachi 3:6"
+      },
+      {
+        "text": "<sup>12</sup><b>and like a robe you will fold them up</b><hr/> <p class=\"otpoetry\"><b>and</b> like a garment <b>they will be changed,</b></p> <p class=\"otpoetry\"><b>but you are the same and your years will never run out</b>.”</p>",
+        "reference": "Hebrews 1:12"
+      },
+      {
+        "text": "<sup>17</sup>In the same way God wanted to demonstrate more clearly to the heirs of the promise that his purpose was unchangeable, and so he intervened with an oath,<sup>18</sup>so that we who have found refuge in him may find strong encouragement to hold fast to the hope set before us through two unchangeable things, since it is impossible for God to lie.",
+        "reference": "Hebrews 6:17-18"
+      },
+      {
+        "text": "<sup>8</sup>Jesus Christ is the same yesterday and today and forever!",
+        "reference": "Hebrews 13:8"
+      },
+      {
+        "text": "<sup>17</sup>All generous giving and every perfect gift is from above, coming down from the Father of lights, with whom there is no variation or the slightest hint of change.",
+        "reference": "James 1:17"
+      },
+      {
+        "text": "<sup>2</sup>Why should the nations say,<hr/> <p class=\"poetry\">“Where is their God?”</p><sup>3</sup>Our God is in heaven!<hr/> <p class=\"poetry\">He does whatever he pleases!</p>",
+        "reference": "Psalms 115:2-3"
+      },
+      {
+        "text": "<sup>14</sup>God said to Moses, “I am that I am.” And he said, “You must say this to the Israelites, ‘I am has sent me to you.’”",
+        "reference": "Exodus 3:14"
+      },
+      {
+        "text": "<sup>17</sup>Now to the eternal king, immortal, invisible, the only God, be honor and glory forever and ever! Amen.<hr/>",
+        "reference": "1 Timothy 1:17"
+      },
+      {
+        "text": "<sup>24</sup>How many living things you have made, O Lord!<hr/> <p class=\"poetry\">You have exhibited great skill in making all of them;</p> <p class=\"poetry\">the earth is full of the living things you have made.</p>",
+        "reference": "Psalms 104:24"
+      },
+      {
+        "text": "<sup>15</sup>&#8211; whose appearing the blessed and only Sovereign, the King of kings and Lord of lords, will reveal at the right time.<sup>16</sup>He alone possesses immortality and lives in unapproachable light, whom no human has ever seen or is able to see. To him be honor and eternal power! Amen.<hr/>",
+        "reference": "1 Timothy 6:15-16"
+      },
+      {
+        "text": "<sup>33</sup>Oh, the depth of the riches and wisdom and knowledge of God! How unsearchable are his judgments and how fathomless his ways!<hr/><sup>34</sup><b>For who has known the mind of the Lord</b>,<hr/> <p class=\"otpoetry\"><b>or who has been his counselor?</b></p>",
+        "reference": "Romans 11:33-34"
+      },
+      {
+        "text": "<sup>13</sup>And no creature is hidden from God, but everything is naked and exposed to the eyes of him to whom we must render an account.<hr/>",
+        "reference": "Hebrews 4:13"
+      },
+      {
+        "text": "<sup>20</sup>that if our conscience condemns us, that God is greater than our conscience and knows all things.",
+        "reference": "1 John 3:20"
+      },
+      {
+        "text": "<sup>11</sup>God has declared one principle;<hr/> <p class=\"poetry\">two principles I have heard:</p> <p class=\"poetry\">God is strong,</p>",
+        "reference": "Psalms 62:11"
+      },
+      {
+        "text": "<sup>17</sup>‘Oh, Lord God, you did indeed make heaven and earth by your mighty power and great strength. Nothing is too hard for you!",
+        "reference": "Jeremiah 32:17"
+      },
+      {
+        "text": "<sup>1</sup>When Abram was 99 years old, the Lord appeared to him and said, “I am the sovereign God. Walk before me and be blameless.",
+        "reference": "Genesis 17:1"
+      },
+      {
+        "text": "<sup>26</sup>Jesus looked at them and replied, “This is impossible for mere humans, but for God all things are possible.”",
+        "reference": "Matthew 19:26"
+      },
+      {
+        "text": "<sup>8</sup>“I am the Alpha and the Omega,” says the Lord God &#8211; the one who is, and who was, and who is still to come &#8211; the All-Powerful!<hr/>",
+        "reference": "Revelation 1:8"
+      },
+      {
+        "text": "<sup>13</sup>But to which of the angels has he ever said, “<b>Sit at my right hand until I make your enemies a footstool for your feet</b>”?",
+        "reference": "Hebrews 1:13"
+      },
+      {
+        "text": "<sup>3</sup>And everyone who has this hope focused on him purifies himself, just as Jesus is pure).<hr/>",
+        "reference": "1 John 3:3"
+      },
+      {
+        "text": "<sup>15</sup>but, like the Holy One who called you, become holy yourselves in all of your conduct,<sup>16</sup>for it is written, “You shall be holy</b>, <b>because I am holy</b>.”",
+        "reference": "1 Peter 1:15-16"
+      },
+      {
+        "text": "<sup>5</sup>And you know that Jesus was revealed to take away sins, and in him there is no sin.",
+        "reference": "1 John 3:5"
+      },
+      {
+        "text": "<sup>4</sup>Who will not fear you, O Lord,<hr/> <p class=\"poetry\">and glorify your name, because you alone are holy?</p> <p class=\"poetry\">All nations will come and worship before you</p> <p class=\"poetry\">for your righteous acts have been revealed.”</p>",
+        "reference": "Revelation 15:4"
+      },
+      {
+        "text": "<sup>25</sup>Far be it from you to do such a thing &#8211; to kill the godly with the wicked, treating the godly and the wicked alike! Far be it from you! Will not the judge of the whole earth do what is right?”<hr/>",
+        "reference": "Genesis 18:25"
+      },
+      {
+        "text": "<sup>13</sup>before the Lord, for he comes!<hr/> <p class=\"poetry\">For he comes to judge the earth!</p> <p class=\"poetry\">He judges the world fairly,</p> <p class=\"poetry\">and the nations in accordance with his justice.</p>",
+        "reference": "Psalms 96:13"
+      },
+      {
+        "text": "<sup>5</sup>But if our unrighteousness demonstrates the righteousness of God, what shall we say? The God who inflicts wrath is not unrighteous, is he? (I am speaking in human terms.)",
+        "reference": "Romans 3:5"
+      },
+      {
+        "text": "<sup>26</sup>This was also to demonstrate his righteousness in the present time, so that he would be just and the justifier of the one who lives because of Jesus’ faithfulness.<hr/>",
+        "reference": "Romans 3:26"
+      },
+      {
+        "text": "<sup>5</sup>who satisfies your life with good things,<hr/> <p class=\"poetry\">so your youth is renewed like an eagle’s.</p>",
+        "reference": "Psalms 103:5"
+      },
+      {
+        "text": "<sup>8</sup>Let them give thanks to the Lord for his loyal love,<hr/> <p class=\"poetry\">and for the amazing things he has done for people!</p>",
+        "reference": "Psalms 107:8"
+      },
+      {
+        "text": "<sup>4</sup>Or do you have contempt for the wealth of his kindness, forbearance, and patience, and yet do not know that God’s kindness leads you to repentance?",
+        "reference": "Romans 2:4"
+      },
+      {
+        "text": "<sup>15</sup>But you, O Lord, are a compassionate and merciful God.<hr/> <p class=\"poetry\">You are patient and demonstrate great loyal love and faithfulness.</p>",
+        "reference": "Psalms 86:15"
+      },
+      {
+        "text": "<sup>2</sup>For his loyal love towers over us,<hr/> <p class=\"poetry\">and the Lord’s faithfulness endures.</p> <p class=\"poetry\">Praise the Lord!</p>",
+        "reference": "Psalms 117:2"
+      },
+      {
+        "text": "<sup>6</sup>The Lord passed by before him and proclaimed: “The Lord, the Lord, the compassionate and gracious God, slow to anger, and abounding in loyal love and faithfulness,",
+        "reference": "Exodus 34:6"
+      },
+      {
+        "text": "<sup>6</sup>The Lord passed by before him and proclaimed: “The Lord, the Lord, the compassionate and gracious God, slow to anger, and abounding in loyal love and faithfulness,<sup>7</sup>keeping loyal love for thousands, forgiving iniquity and transgression and sin. But he by no means leaves the guilty unpunished, responding to the transgression of fathers by dealing with children and children’s children, to the third and fourth generation.”<hr/>",
+        "reference": "Exodus 34:6-7"
+      },
+      {
+        "text": "<sup>4</sup>As for the Rock, his work is perfect,<hr/> <p class=\"poetry\">for all his ways are just.</p> <p class=\"poetry\">He is a reliable God who is never unjust,</p> <p class=\"poetry\">he is fair and upright.</p>",
+        "reference": "Deuteronomy 32:4"
+      },
+      {
+        "text": "<sup>4</sup>As for the Rock, his work is perfect,<hr/> <p class=\"poetry\">for all his ways are just.</p> <p class=\"poetry\">He is a reliable God who is never unjust,</p> <p class=\"poetry\">he is fair and upright.</p>",
+        "reference": "Deuteronomy 32:4"
+      },
+      {
+        "text": "<sup>18</sup>so that we who have found refuge in him may find strong encouragement to hold fast to the hope set before us through two unchangeable things, since it is impossible for God to lie.",
+        "reference": "Hebrews 6:18"
+      },
+      {
+        "text": "<sup>1</sup>In the beginning was the Word, and the Word was with God, and the Word was fully God.<sup>2</sup>The Word was with God in the beginning.<sup>16</sup>For this is the way God loved the world: He gave his one and only Son, so that everyone who believes in him will not perish but have eternal life.<sup>18</sup>Then Jesus came up and said to them, “All authority in heaven and on earth has been given to me.<sup>19</sup>Therefore go and make disciples of all nations, baptizing them in the name of the Father and the Son and the Holy Spirit,<sup>20</sup>teaching them to obey everything I have commanded you. And remember, I am with you always, to the end of the age.”<hr/>",
+        "reference": "John 1:1-20"
+      }
+    ]
+  }
+]
