@@ -17,6 +17,12 @@ function MainCtrl($scope, Catechism, $location){
     $location.path("");
   }
 
+  $scope.filterNum = function(catechism){
+    if(_.isEmpty($scope.search))
+      return true;
+    return catechism.number == $scope.search.number;
+  }
+
 }
 
 function SelectCtrl($scope, Catechism, $location){

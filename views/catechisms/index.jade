@@ -11,7 +11,7 @@ block content
     #error(ng-show='catechisms.length==0')
       |Loading...
     ul
-      li.catechism(ng-repeat='cat in catechisms | filter:search',
+      li.catechism(ng-repeat='cat in catechisms | filter:filterNum',
         ng-class-even='"even"')
         .question
           .number {{cat.number}}
