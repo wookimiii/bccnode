@@ -3,6 +3,7 @@ app.config(function($routeProvider, $locationProvider) {
   // $locationProvider.html5Mode(true);
   $routeProvider.
     when('/new', {controller:NewCtrl, template:$('#new-template').html()}).
+    when('/select', {controller:SelectCtrl, template:$('#selector-template').html()}).
     otherwise({controller:ListCtrl, template:$('#list-template').html()});
   });
 
@@ -11,11 +12,29 @@ function MainCtrl($scope, Catechism, $location){
     $scope.catechisms = Catechism.query();
   }
   $scope.fetchData();
-
+  $scope.search = {};
   $scope.goHome = function(){
     $location.path("");
   }
+
 }
+
+function SelectCtrl($scope, Catechism, $location){
+  $scope.preview = null;
+  $scope.select = function(num){
+    if(_.isNull(num)){
+      $scope.search = {};
+    }else{
+      $scope.search.number = num;
+    }
+    $scope.goHome();
+  }
+  $scope.setPreview = function(catechism){
+    $scope.preview = catechism;
+  }
+  
+}
+
 
 function ListCtrl($scope, Catechism){
   $scope.toggles = {}

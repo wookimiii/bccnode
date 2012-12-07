@@ -3,9 +3,11 @@ extends layout
 block content
   header 
     |Catechisms
+    a.menu-btn(href="#select")
+      i.icon-th
   ng-view
 
-  #list-template.hidden(ng-controller='ListCtrl')
+  #list-template.hidden
     #error(ng-show='catechisms.length==0')
       |Loading...
     ul
@@ -26,9 +28,5 @@ block content
               {{v.reference}}
             <span ng-show='isVisible(cat.number, v.reference)', ng-bind-html="v.text"></span>
 
-    a(href="#new") New
-
   include new
-
-
-
+  include selector

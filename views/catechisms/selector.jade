@@ -1,0 +1,16 @@
+#selector-template.hidden
+  #selectors
+    #preview
+      span(ng-show="preview")
+        {{preview.number}} : 
+        {{preview.question}}
+      span(ng-hide="preview")
+        | Choose a catechism
+    .clearfix
+
+    .selector(ng-click='select(null)') All
+    .selector(ng-repeat='cat in catechisms',
+      ng-click="select(cat.number)",
+      ng-mouseover="setPreview(cat)")
+        {{cat.number}}
+    .clearfix
