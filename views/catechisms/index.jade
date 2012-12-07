@@ -19,7 +19,7 @@ block content
           {{cat.answer}}
         .clearfix
         .verses
-          .verse(ng-repeat='v in cat.verses')
+          .verse(ng-repeat='v in cat.verses | orderBy:"order"')
             
             .ref(ng-click='toggle(cat.number, v.reference)')
               {{v.reference}}
