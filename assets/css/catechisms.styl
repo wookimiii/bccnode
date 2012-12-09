@@ -3,6 +3,7 @@ body
   width: 100%
   padding: 30px 0
   box-sizing: border-box
+  background: url("/assets/img/noisy_grid.png")
 
 header
   width: 100%
@@ -15,6 +16,7 @@ header
   top: 0
   left: 0
   background: linear-gradient(top, white, #ccc)
+  box-shadow: 0px 1px 3px #333
   z-index: 99
   .menu-btn
     float: left
@@ -25,9 +27,10 @@ ul
   margin: 0
 li
   list-style-type: none;
-
+.catechisms
+  background-color: rgba(255,255,255, 0.7);
 .catechism
-  padding: 5px 10px
+  padding: 5px 5px
   box-sizing: border-box
   label
     width: 20px
@@ -36,29 +39,34 @@ li
   hr
     margin: 0
     visibility: hidden
-    height: 4pt
-
-.catechism.even
-  background: rgba(0,0,0, 0.03)
-  padding: 5px
+    height: 0pt
 
 $number-width = 40px
 .number
   font-size: 2em;
-  float: left
   color: #999
   width: $number-width
   position:relative
-  top: 4px
-  
+  top: 10px
+  left: 5px
+  height: 0px
+
+.question-answer
+  padding: 5px
 .question
   font-weight: bold
 .question, .answer{
   float: left;
 }
-.answer, .verses{
-  margin-left: $number-width
-}
+.question, .answer, .verse
+  padding-left: $number-width
+  box-sizing: border-box
+.question-answer
+  background: rgba(255,255,255,0.7);
+  
+.verse:hover
+  background: rgba(255,255,255,0.7);
+
 .ref
   color: #0088cc;
 

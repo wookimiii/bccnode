@@ -10,20 +10,20 @@ block content
   #list-template.hidden
     #error(ng-show='catechisms.length==0')
       |Loading...
-    ul
+    ul.catechisms
       li.catechism(ng-repeat='cat in catechisms | filter:filterNum',
         ng-class-even='"even"')
-        .question
-          .number {{cat.number}}
-          {{cat.question}}
-        .clearfix
-        .answer 
-          label A: 
-          {{cat.answer}}
-        .clearfix
+        .number {{cat.number}}
+        .question-answer
+          .question
+            {{cat.question}}
+            .clearfix
+          .answer 
+            label A: 
+            {{cat.answer}}
+          .clearfix
         .verses
           .verse(ng-repeat='v in cat.verses | orderBy:"order"')
-            
             .ref(ng-click='toggle(cat.number, v.reference)')
               {{v.reference}}
             <span ng-show='isVisible(cat.number, v.reference)', ng-bind-html="v.text"></span>
