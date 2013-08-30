@@ -1,1 +1,1 @@
-web: node bcc
+web: node app.js
