@@ -8,7 +8,8 @@
     "mongodb": "1.2.0",
     "request": "2.12.0",
     "stylus": "*",
-    "nib": "*"
+    "nib": "*",
+    "underscore": "*"
   },
   "engines": {
     "node": "0.10.x"
