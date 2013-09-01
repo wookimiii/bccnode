@@ -14,19 +14,8 @@ var app = express();
 app.use(express.bodyParser());
 
 /**
- * middleware
+ * Jade Templates
 **/
-app.use(stylus.middleware({ 
-    src: __dirname + '/assets', 
-    dst: __dirname + '/public',
-    compile: function (str, path) {
-        return stylus(str)
-        .set('filename', path)
-        .use(nib())
-        .import('nib');
-    }
-}));
-
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.set('view cache', true);
@@ -37,17 +26,16 @@ app.set('etag', false);
 **/ 
 app.use(express.static(__dirname + '/public'))
 
-app.configure(function() {
-    var basePath = __dirname;
-    app.use(require('connect-assets')({build: false, src: basePath + '/assets'}));
-    app.use('/assets', express.static(basePath + '/assets'));
-    app.use('/img', express.static(basePath + '/assets/images'));
-    app.use('/font', express.static(basePath + '/assets/font'));
-    app.set('view options', { layout: false });
-});
-
+/**
+ * Application port
+ * Heroku uses process.env.PORT
+**/
 var port = process.env.PORT || 5000;
 
+
+/**
+ * Start the server
+**/ 
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
@@ -65,6 +53,5 @@ app.get('/shorter-catechisms', catechisms.index);
 app.get('/shorter-catechisms/new', catechisms.newForm);
 app.post("/api/catechisms", catechisms.create);
 app.get('/api/catechisms', catechisms.all);
-
 
 module.exports = app
