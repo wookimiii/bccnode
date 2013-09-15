@@ -1,6 +1,7 @@
 var express = require('express');
 var path = require('path');
 var stylus = require('stylus');
+var assets = require('connect-assets')();
 
 /**
  * Handlers
@@ -12,6 +13,8 @@ var catechisms = require('./handlers/catechisms.js');
 **/
 var app = express();
 app.use(express.bodyParser());
+
+app.use(assets);
 
 /**
  * Jade Templates
@@ -44,8 +47,11 @@ app.listen(port, function() {
  * Routes
 **/
 app.get('/', function(req, res) {
-    console.log("Welcome to BCC");
     res.render('index');
+});
+
+app.get('/sermon/new', function (req, res) {
+    res.render('sermon/new');
 });
 
 // +++ CATECHISMS 
