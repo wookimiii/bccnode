@@ -18,13 +18,13 @@ app.use(express.bodyParser());
 **/
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-app.set('view cache', true);
+// app.set('view cache', true);
 app.set('etag', false);
 
 /**
  * Use the public directory for assests
 **/ 
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/assets'))
 
 /**
  * Application port

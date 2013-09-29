@@ -1,0 +1,8 @@
+/* Progress bar
+---------------------------------------- */
+.progress-group .fore .bar {
+	left:0;
+	}
+.progress-group .fore .name {
+	color:#fff;
+	}

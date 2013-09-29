@@ -1,0 +1,152 @@
+/* ------------------------------------------------------- */
+/* Primary color
+ * Edit #b40606 to the color you wish
+/* ------------------------------------------------------- */
+a, a:hover,
+blockquote em a,
+blockquote em a:hover,
+blockquote cite a,
+blockquote cite a:hover,
+.authorbox .text h4 a,
+.wi-portfolio-filter ul li.active a {
+	color:#b40606;
+	}
+
+#respond #submit:hover,
+.contactform #submit:hover,
+.progress .fore .bar,
+.testimonial-slider .flex-control-paging li a.flex-active {
+	background-color:#b40606;
+	}
+.wi-portfolio-filter ul li.active a {
+	border-color:#b40606;
+	}
+
+/* ------------------------------------------------------- */
+/* Font
+ * Choose the font you want and place it here
+/* ------------------------------------------------------- */
+	/* Body font
+	------------------------------------- */
+body {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+	
+	/* Navigation font
+	------------------------------------- */
+#wi-mainnav ul.menu > li > a {
+	font-family: 'Oswald', sans-serif;
+	}
+	
+	/* Heading font
+	------------------------------------- */
+h1, h2, h3, h4, h5, h6, dl dt,
+#wi-top-area .wi-button .btn,
+#wi-logo a,
+.page-separator .wi-button .btn,
+.bigtext,
+.post-nav .ele a,
+.tags,
+.commentlist .fn,
+#respond .comment-ele label,
+#respond #submit,
+.tagcloud a,
+.widget_categories ul li a,
+.contactform .ele label,
+.contactform #submit,
+.contactform .note .result,
+
+.progress .fore .name,
+.wi-count .number,
+.wi-count .name,
+.wi-member .name,
+
+.wi-portfolio-filter ul li a,
+.portfolio-item .thumb .name
+{
+	font-family: 'Oswald', sans-serif;
+	}
+
+/* ------------------------------------------------------- */
+/* Top area
+/* ------------------------------------------------------- */
+#wi-top-area {
+	background-image:url(./assets/wooden.jpg);
+	}
+#wi-top-area .overlay {
+	opacity:0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+	}
+	
+/* ------------------------------------------------------- */
+/* Sections
+/* ------------------------------------------------------- */
+
+	/*	Team
+	------------------------------------- */
+#page-separator-team .overlay {
+	background:#fff;
+	opacity:0.08;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=8)";
+	filter: alpha(opacity=8);
+	}
+	
+	/*	Services
+	------------------------------------- */
+#page-separator-service {
+	background-image:url(../assets/girl.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top:120px;
+	padding-bottom:120px;
+	}
+#page-separator-service .overlay {
+	opacity:0.55;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
+	filter: alpha(opacity=55);
+	}
+#page-separator-service .clipmask {
+	opacity:0.15;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	filter: alpha(opacity=15);
+	}
+	
+	/*	Portfolio
+	------------------------------------- */
+#page-separator-portfolio {
+	background-image:url(../images/sidrbg/diagmonds.png);
+	-webkit-background-size:141px 142px;
+	-moz-background-size:141px 142px;
+	background-size:141px 142px;
+	}
+#page-separator-portfolio .overlay {
+	background:#fff;
+	opacity:0.07;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=7)";
+	filter: alpha(opacity=7);
+	}	
+	
+	/*	Contact
+	------------------------------------- */
+#page-separator-contact {
+	background-image:url(../assets/fishing.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top:120px;
+	padding-bottom:120px;
+	}
+#page-separator-contact .overlay {
+	opacity:0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	}
+	
+/* -------------------------------------------------------------------------------------- */
+/* Retina
+/* -------------------------------------------------------------------------------------- */
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){
+	#page-separator-portfolio {
+		background-image:url(../images/sidrbg/diagmonds_@2X.png);
+		}
+}	
